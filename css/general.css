@@ -29,18 +29,18 @@
 }
 
 .btn--full:hover,
-.btn-full:active {
+.btn--full:active {
   background-color: #cf711f;
 }
 
 .btn--outline:link,
-.btn-outline:visited {
+.btn--outline:visited {
   background-color: #fff;
   color: #555;
 }
 
 .btn--outline:hover,
-.btn-outline:active {
+.btn--outline:active {
   background-color: #fdf2e9;
   /* border: 3px solid #fff; */
   box-shadow: inset 0 0 0 3px #fff;
@@ -105,6 +105,9 @@
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
 
 .grid-center-v {
   align-items: center;
@@ -149,6 +152,7 @@
   display: flex;
   align-items: center;
   gap: 1.6rem;
+  line-height: 1.2;
 }
 
 .list-icon {
